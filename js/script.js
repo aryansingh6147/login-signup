@@ -22,4 +22,4 @@ document.querySelector("#signup-form form").onsubmit = function(e) {
     if (signup_password.value.length < 6) {
         alert("Password length too short");
     }
-}
+}  
